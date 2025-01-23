@@ -1,0 +1,362 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1974476429467665655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1974476429467665653}
+  - component: {fileID: 1974476429467665654}
+  - component: {fileID: 1974476429467665652}
+  m_Layer: 0
+  m_Name: QuestionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1974476429467665653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974476429467665655}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1974476429467665654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974476429467665655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17707833a8278704fa753a25a5e7d85c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: "I used to be part of a tree, but now I\u2019m not. You can find
+      me in a forest or a fireplace. What am I?"
+    choices:
+    - Log
+    - Human
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: I'm hard, but I'm not a diamond. I sit quietly in a garden, but
+      I'm not a plant. What am I?
+    choices:
+    - Chair
+    - Rock
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: 'What part of your body do you use to hear sounds? '
+    choices:
+    - Ears
+    - Eyes
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: What is an object that contains stories or information, is often
+      made of paper, and you can find in a library?
+    choices:
+    - Books
+    - Plants
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: I'm up in the sky, but I'm not a star. I shine at night, but I'm
+      not a lamp. What am I?
+    choices:
+    - Sun
+    - Moon
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: I am made of glass, but I am not a window. I can store cookies,
+      but I am not a bakery. What am I?
+    choices:
+    - Jar
+    - Car
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: I am where fish live, but I am not a tank. I am vast and wide,
+      but I am not a field. What am I?
+    choices:
+    - Aquarium
+    - Ocean
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: What is a plant that grows by climbing or trailing along a surface
+      and is often found on walls or trees?
+    choices:
+    - Rose
+    - Vines
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: Who is the female ruler of a kingdom?
+    choices:
+    - Queen
+    - President
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: What is the opposite of day?
+    choices:
+    - Night
+    - Yad
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: 'Which fruit is commonly associated with the color red and grows
+      on trees? '
+    choices:
+    - 'Apple '
+    - Banana
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: "Which animal is often referred to as \u201Cman\u2019s best friend\u201D?"
+    choices:
+    - Horse
+    - Dog
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: 'Which activity often involves rules, competition, and can be done
+      for fun or as a serious pursuit? '
+    choices:
+    - Game
+    - Reading
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: "What\u2019s the solid form of water at freezing temperatures? "
+    choices:
+    - 'Ocean '
+    - Ice
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: 'What small object is commonly used to unlock doors, start cars,
+      and secure valuable items? '
+    choices:
+    - Key
+    - Coin
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: 'What towering natural feature often has snow-covered peaks? '
+    choices:
+    - Mountain
+    - Desert
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: "Which way does a compass point when you\u2019re looking for the
+      top of a map? "
+    choices:
+    - South
+    - 'North '
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: 'Which farm animal is known for its curly tail, oinks, and loves
+      rolling in the mud? '
+    choices:
+    - Pig
+    - Cow
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: 'What bright object is at the center of our solar system and provides
+      light and warmth to Earth? '
+    choices:
+    - Sun
+    - 'Comet '
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: 'What number represents the absence of quantity or value? '
+    choices:
+    - Zero
+    - Ten
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: 'What do we call the immediate help given to someone who is injured
+      or ill? '
+    choices:
+    - Magic healing
+    - First aid
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: What is a common first aid item used to cover and protect wounds?
+    choices:
+    - Cotton swab
+    - Bandages
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: What first aid item should be used in case of a fracture?
+    choices:
+    - Splint
+    - Stethoscope
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: What life-saving technique involves chest compressions?
+    choices:
+    - 'Bandaging '
+    - 'CPR '
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: The act of drinking water.
+    choices:
+    - Hydrate
+    - Defuse
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: Which substance can be harmful or deadly when ingested, inhaled,
+      or absorbed by the body?
+    choices:
+    - "Poison\_"
+    - Food
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: What term refers to a broken bone?
+    choices:
+    - 'Sprain '
+    - "Fracture\_"
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: What injury occurs when the skin is damaged due to heat?
+    choices:
+    - Contusion
+    - 'Burn '
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: Which condition occurs when the body overheats and is unable to
+      regulate its temperature?
+    choices:
+    - Heatstroke
+    - 'Sunburn '
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: What profession typically involves repairing and maintaining machinery?
+    choices:
+    - Chef
+    - Mechanic
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: Which term refers to the process of keeping something in good condition?
+    choices:
+    - Maintenance
+    - Gardening
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: Which mode of transportation has four wheels and an engine?
+    choices:
+    - Car
+    - Motorcycle
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: What round things on a car help it move and grip the road?
+    choices:
+    - Tires
+    - Seatbelt
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: What part of a car is responsible for converting fuel into power
+      to make it run?
+    choices:
+    - Radio
+    - Engine
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: 'What essential fluid is used to lubricate the moving parts inside
+      an engine? '
+    choices:
+    - Water
+    - Oil
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: 'What component in a car provides electrical power to start the
+      engine? '
+    choices:
+    - Battery
+    - Water
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: Which tool is commonly used for turning nuts and bolts?
+    choices:
+    - Hammer
+    - Wrench
+    button: {fileID: 0}
+    correctAnswerIndex: 1
+  - questionText: ' What tool do you use to hit nails? '
+    choices:
+    - Hammer
+    - Wrench
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+  - questionText: What tool is commonly used for turning screws and tightening or
+      loosening them?
+    choices:
+    - Screwdriver
+    - Apple
+    button: {fileID: 0}
+    correctAnswerIndex: 0
+--- !u!114 &1974476429467665652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974476429467665655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e33308edea8d342b980863d850728e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  states: 0
+  movement: {fileID: 0}
+  PlayerLife: {fileID: 0}
+  PlayerPrefab: {fileID: 9110165264159180928, guid: 491d986e8bd0e6547b07758e3398b62e, type: 3}
+  EnemyPrefab: {fileID: 3109589221442946864, guid: d3f80bea2104d4a46ba350206a41a67c, type: 3}
+  Enemy1Prefab: {fileID: 462964546421879637, guid: bfbb193f290bafc4991b82c1c9b2cda9, type: 3}
+  Enemy2Prefab: {fileID: 5335692284413696409, guid: 77061565ec9abfe428b7702c0fe5b8ea, type: 3}
+  PlayerStation: {fileID: 0}
+  EnemyStation: {fileID: 0}
+  playerHud: {fileID: 0}
+  MainPlayer: {fileID: 0}
+  EnemyHud: {fileID: 0}
+  Txt: {fileID: 0}
+  txtintro: {fileID: 0}
+  ActivatePanel: {fileID: 0}
+  DeactivatePanel: {fileID: 0}
+  Heal: 0
+  Attack: 0
+  questionText: {fileID: 0}
+  choiceButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  buttHeal: {fileID: 0}
+  questionGenerator: {fileID: 1974476429467665654}
+  correctAns: 0
+  Deactivate: {fileID: 0}
+  Enemy: 0
+  Can: {fileID: 0}
+  cameraManager: {fileID: 0}
+  cameraFade: {fileID: 0}
+  txtMiss: {fileID: 0}
+  Enemy1: 0
+  Enemy2: 0
+  Enemy3: 0
+  currentSceneName: GameOver
+  MissionPanel: {fileID: 0}
+  MissionAnim: {fileID: 0}
+  AnimMiss: {fileID: 0}
+  MainHp: {fileID: 0}
+  txtAlert: {fileID: 0}
+  MiniMap: {fileID: 0}
+  todestroy: {fileID: 0}
+  animator: {fileID: 0}
+  boolName: IsAttack
+  txtulet: {fileID: 0}
+  B1: {fileID: 0}
+  B2: {fileID: 0}
+  Book1: {fileID: 0}
