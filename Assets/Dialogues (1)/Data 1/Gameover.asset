@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645db2bb88c19ce479919e912d2dacc4, type: 3}
+  m_Name: Gameover
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: 
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: Many minutes have passed, and the survivor is still focused on
+        solving the puzzles.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: But suddenly, he hears a noise that breaks his concentration.
+        He feels as if someone is watching him.
+      backgroundImage: {fileID: 21300000, guid: 6c49147c47f9f49449495e8c0b5cfbbf, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: Before he can react, the survivor is caught by an enemy hiding
+        in the shadows.
+      backgroundImage: {fileID: 21300000, guid: a09653ff4128d0347bd19a64ae7c4075, type: 3}
+      triggerCameraShake: 0

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645db2bb88c19ce479919e912d2dacc4, type: 3}
+  m_Name: Cutscene 6
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: Settlement Day
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: The survivor wakes up in his tent as usual.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: He sees the flimsy attempts at making the settlement secure and
+        defended which gives him an idea.
+      backgroundImage: {fileID: 21300000, guid: d3c2c5ec72a0b0348829b57ff80b32dc, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: Without saying a word, the survivor quickly leaves and searches
+        a place to scavenge.
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor found a construction supply shop and goes inside
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Construction Supply Shop
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: The survivor encounters enemies and puzzles to solves.
+      backgroundImage: {fileID: 21300000, guid: a62fd6dc15c70914a9610cbdee71be8e, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: After successfully defeating enemies and solving the puzzles.
+        The survivor opens a room filled with supplies.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: He finds a book about doomsday prepping and inspecy it.
+      backgroundImage: {fileID: 21300000, guid: 24b590b549e269c47bfd21983b402d69, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: Most of its pages were torn, but there still a decent pages that
+        are clear and readable.
+      backgroundImage: {fileID: 21300000, guid: 8721a930b57a4034b93fc910809ed243, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: ' The survivor quickly hurries back home.'
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Settlement Noon
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: he survivor calls out to everyone.
+      backgroundImage: {fileID: 21300000, guid: d287ab95ed21afb42b571d35cde2d2da, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: Guys! Come quick, I have something that will help us build better
+        defenses and a few traps!
+      backgroundImage: {fileID: 21300000, guid: eb6433f067244bd42bf8fd1ed2779d73, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The settlers come and listen to the survivor.
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: "but can\u2019t make some of the stuff because we need supplies,
+        luckily, the place I found this book in had a lot of those."
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: 'The survivor asked the settlers for help in gathering supplies. '
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0

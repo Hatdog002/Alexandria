@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645db2bb88c19ce479919e912d2dacc4, type: 3}
+  m_Name: Cutscene 1
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: Scene 1
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: The survivor finds himself in the middle of the forest.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+    - speakerName: Narrator
+      dialogueText: As he looks around trying to observe his sorroundings.
+      backgroundImage: {fileID: 21300000, guid: 640891b69371a484eb28e1ca9f264203, type: 3}
+    - speakerName: Narrator
+      dialogueText: He is caught by the settlers.
+      backgroundImage: {fileID: 21300000, guid: 8de59dca1f610f14f9040d35daaf9d20, type: 3}
+    - speakerName: Survivor
+      dialogueText: "Whoa! Please don\u2019t attack! I\u2019m unarmed! "
+      backgroundImage: {fileID: 21300000, guid: 6aad1fe599f8ac94d8ad3fc9085e808d, type: 3}
+    - speakerName: Narrator
+      dialogueText: One of the settlers gestures for the survivor to follow.
+      backgroundImage: {fileID: 0}
+    - speakerName: Narrator
+      dialogueText: "They start heading to the camp, while ensuring the survivor
+        doesn\u2019t attempt to flee."
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+  - sceneName: Scene 2
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: After walking a bit, they finally reached the ruined settlement.
+      backgroundImage: {fileID: 21300000, guid: a8e42675c2648ef4782e0ccea590cfde, type: 3}
+    - speakerName: Narrator
+      dialogueText: The settlers let the survivor enter the settlement as they stay
+        outside.
+      backgroundImage: {fileID: 0}
+    - speakerName: Narrator
+      dialogueText: The survivor entered the house and attempts to speak with the
+        leader.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+  - sceneName: Scene 3
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: "Hello, sir! I\u2019m searching for a group to stay with. "
+      backgroundImage: {fileID: 21300000, guid: 265ed396054880b4caee043642961e16, type: 3}
+    - speakerName: Narrator
+      dialogueText: The leader looks at him but he is met with no response.
+      backgroundImage: {fileID: 0}
+    - speakerName: Narrator
+      dialogueText: "Please sir, I swear I\u2019ll help out around the settlement.
+        I can do anything you\u2019d want me to do."
+      backgroundImage: {fileID: 21300000, guid: 686564861ffa3db40b6dc401d0022520, type: 3}
+    - speakerName: Narrator
+      dialogueText: I know basic agriculture; I-I can help you with almost everything.
+      backgroundImage: {fileID: 0}
+    - speakerName: Narrator
+      dialogueText: The leader just stares and nods at the survivor.
+      backgroundImage: {fileID: 0}
+    - speakerName: Narrator
+      dialogueText: Suddenly, the leader walks and leads him outside where the settlers
+        wait.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+  - sceneName: Scene 4
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: "Believing he\u2019s about to be executed, the survivor panics
+        and pleads with the settlers."
+      backgroundImage: {fileID: 21300000, guid: 0737a15173663d24098496e23160e9e6, type: 3}
+    - speakerName: Survivor
+      dialogueText: "Please, I\u2019ll do anything! Just don\u2019t hurt me."
+      backgroundImage: {fileID: 0}
+    - speakerName: Narrator
+      dialogueText: But instead of punishment, the leader quietly hands him a bowl
+        of soup.
+      backgroundImage: {fileID: 21300000, guid: 315c64ae2209fb347a903fb94341c6e1, type: 3}
+    - speakerName: Survivor
+      dialogueText: ...
+      backgroundImage: {fileID: 0}
+    - speakerName: Narrator
+      dialogueText: "His fear turns into embarrassment as he realizes it\u2019s just
+        a simple dinner, not a moment of judgment."
+      backgroundImage: {fileID: 0}
+    - speakerName: Narrator
+      dialogueText: They all sit together, sharing a quiet meal under the dim light
+        of the fire.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645db2bb88c19ce479919e912d2dacc4, type: 3}
+  m_Name: Cutscene 5
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: Settlement
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: The survivor wakes up in his tent.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: "The settlers\u2019 communication skills have improved."
+      backgroundImage: {fileID: 21300000, guid: 136c29e161f2aa342868c055b01a672c, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor heads out to find another book that will help the
+        settlers.
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor found a car repair shop and goes inside.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Car Repair Shop
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: The survivor encounters enemies and puzzles to solves.
+      backgroundImage: {fileID: 21300000, guid: 5b8a42460cde14543b2c7b14f01a054e, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: After successfully defeating enemies and solving the puzzles.
+        The survivor opens a room filled with supplies.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: He finds a book about basic mechanics prepping and inspect it.
+      backgroundImage: {fileID: 21300000, guid: 24b590b549e269c47bfd21983b402d69, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor takes it with him and heads back to the settlement.
+      backgroundImage: {fileID: 21300000, guid: 8721a930b57a4034b93fc910809ed243, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor teaches the content of the cookbook, and the settlers
+        cook the new recipes they learned and had a feast.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Scene 3
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: After the survivor is done teaching, the settlers leaves to sleep
+        and a guard suddenly rushes towards the leader.
+      backgroundImage: {fileID: 21300000, guid: af66692d4e3b7bd45a6eb6011e0eb52f, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Guard
+      dialogueText: Sir! Smoke in far! Might be bandits!
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Leader
+      dialogueText: Calm down, Tell the others settler that to prepare defese in
+        dark, off any fire so smoke is not visible.
+      backgroundImage: {fileID: 21300000, guid: 6b4f2185c39d3a343b692234cda5764a, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Guard
+      dialogueText: Understood...
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: I can help the others in the preparation of defense.
+      backgroundImage: {fileID: 21300000, guid: aa7b2930062fc1e42a946f01b963f1fe, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Leader
+      dialogueText: Not you, suvivor, Rest, I may need help tomorrow.
+      backgroundImage: {fileID: 21300000, guid: bd3016a9ca82ac040a28e6ae65913c1b, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Survivor.
+      dialogueText: (reluctantly) Understood...
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: he survivor struggles but eventually manages to fall asleep.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0

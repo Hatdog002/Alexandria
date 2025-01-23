@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645db2bb88c19ce479919e912d2dacc4, type: 3}
+  m_Name: Final
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: Settlement Night
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: Exhausted, the survivor and settlers finish setting up the defenses.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: Suddenly, one of the settlers informed them for incoming raid
+        as few raiders spot nearby the settlement.
+      backgroundImage: {fileID: 21300000, guid: b93115c1e541371489561cadb5ed4113, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The decided to leave immediately and find a place to hide.
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The traps are triggered, incapacitating the raiders and giving
+        the survivors enough time to escape.
+      backgroundImage: {fileID: 21300000, guid: 0b985438fd49c1349976ee9b347c11f4, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor and settler successfully scape and went inside of
+        an abandoned building.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Vetaran's House
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: The survivor, thinking of a plan, discovers they are in a war
+        veteran's house.
+      backgroundImage: {fileID: 21300000, guid: ae01cc6f4135be946b42ca9131c412e8, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: While searching for something useful, he came across a secret
+        bunker with old technology, including a large generator
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor tries to power it on, but it doesn't work.
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: After following the instruction inprinted on the machine itself,
+        the machine worked.
+      backgroundImage: {fileID: 21300000, guid: 80ce96d81c39d2c47bf94b7c112ff57e, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: It makes a loud thump and everyone on the surface that is within
+        the bounds of the settlement gets incapacitated.
+      backgroundImage: {fileID: 21300000, guid: c34da6d30ae05cb478f453b1c62223e5, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: After succesfully defend againts the raiders, the settlers and
+        the survivor head outside and locked them in prisons.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Settlement Day
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: 'A few days later, the survivor would wake up in his tent. '
+      backgroundImage: {fileID: 21300000, guid: de0ea1fb283dca04d9665972459ca72a, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The settlers have learned to talk a lot more coherently and fluently,
+        though they still make some grammatical mistakes.
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: 'The survivor heads to find the leader '
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: He found the leader observing the settlement and approach him.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Last
+    dialogueLines:
+    - speakerName: Leader
+      dialogueText: 'A few days later, the survivor would wake up in his tent. '
+      backgroundImage: {fileID: 21300000, guid: 5ec4a965181f4884cb2e36f2c832e55e, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: Thank you. For letting me stay here with you guys.
+      backgroundImage: {fileID: 21300000, guid: 50e42e14c30ec1d42b02233a755db3be, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Leader
+      dialogueText: "well then\u2026 This settlement has grown quite big don\u2019t
+        you think?"
+      backgroundImage: {fileID: 21300000, guid: 1bc6ec8fc44dfc94981a8f7b0a2588df, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Leader
+      dialogueText: "Well, I\u2019m not about to retire yet, but when the time comes,
+        I want you to succeed me and lead this place."
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Leader
+      dialogueText: you may deny my offer, but as gratitude for your help, you can
+        name the settlement.
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor thinks on it for a bit
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: "I read something about a great settlement in ancient times,
+        I want to name it after that. I\u2019ll call this settlement Alexandria."
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0

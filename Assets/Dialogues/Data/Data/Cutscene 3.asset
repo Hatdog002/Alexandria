@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645db2bb88c19ce479919e912d2dacc4, type: 3}
+  m_Name: Cutscene 3
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: Scene 4
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: "After searching his sorroundings, He found single children\u2019s
+        alphabet book."
+      backgroundImage: {fileID: 21300000, guid: 66e0fc7936c8c8248baba2ccb83f0467, type: 3}
+    - speakerName: Narrator
+      dialogueText: The survivor picked it up and examined the faded pages.
+      backgroundImage: {fileID: 21300000, guid: bc4193c9c80de1045aede47634053b9c, type: 3}
+    - speakerName: Survivor
+      dialogueText: i only found one, well, its better than nothing.
+      backgroundImage: {fileID: 0}
+    - speakerName: Narrator
+      dialogueText: The survivor decided to head back to the settlement before it
+        got dark.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+  - sceneName: Scene 5
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: 'The survivor gets the settlers attention and explains what he
+        intends to do.  '
+      backgroundImage: {fileID: 21300000, guid: 583002a83f451bf418d0daed792b38b7, type: 3}
+    - speakerName: Survivor
+      dialogueText: This is a book. Book. And I want to teach you guys about it.
+      backgroundImage: {fileID: 21300000, guid: 153dac04ded02774a8b8ed48cd95cff0, type: 3}
+    - speakerName: Narrator
+      dialogueText: The survivor opens the book on the first page, shows it to the
+        settlers.
+      backgroundImage: {fileID: 0}
+    - speakerName: Narrator
+      dialogueText: And he begins teaching them using the book
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}

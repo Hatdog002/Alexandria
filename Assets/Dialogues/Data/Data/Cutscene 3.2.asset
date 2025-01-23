@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645db2bb88c19ce479919e912d2dacc4, type: 3}
+  m_Name: Cutscene 3.2
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: Scene 1
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: "The survivor wakes up in a tent near the leader\u2019s house."
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The settlers are now talking amongst each other using the words
+        that were taught to them in the book and start calling the survivor, well,
+        the survivor.
+      backgroundImage: {fileID: 21300000, guid: ebe9f130bef67f1488a97b74999f95cc, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor heads inside the leader's house.
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor entered the house and speak with the leader.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Scene 2
+    dialogueLines:
+    - speakerName: Survivor
+      dialogueText: "Good morning, sir, it seems like everyone\u2019s more talkative
+        now."
+      backgroundImage: {fileID: 21300000, guid: 265ed396054880b4caee043642961e16, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Leader
+      dialogueText: " Much. Hmm\u2026 Thank you. Help us."
+      backgroundImage: {fileID: 21300000, guid: b0f901adb3449c54da846ed2717462d8, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: No problem, sir. I told you I could be of use in the camp.
+      backgroundImage: {fileID: 21300000, guid: 265ed396054880b4caee043642961e16, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: So, can I join your group now?
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Leader
+      dialogueText: "You\u2019re one of us, Welcome here anytime."
+      backgroundImage: {fileID: 21300000, guid: b0f901adb3449c54da846ed2717462d8, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: Thank you for accepting me. I'll find more books to teach the
+        others.
+      backgroundImage: {fileID: 21300000, guid: 265ed396054880b4caee043642961e16, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The leader nods at the survivor and he leaves.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0

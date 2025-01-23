@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645db2bb88c19ce479919e912d2dacc4, type: 3}
+  m_Name: Cutscene 5.1
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: Car Repair Shop
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: The survivor encounters enemies and puzzles to solves.
+      backgroundImage: {fileID: 21300000, guid: e7f593c269058c240b78f9d80ec5cadc, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: After successfully defeating enemies and solving the puzzles.
+        The survivor opens a room filled with supplies.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: He finds a book about basic mechanics prepping and inspect it.
+      backgroundImage: {fileID: 21300000, guid: d89b16bd631200c4597416d86806f004, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor takes it with him and heads back to the settlement.
+      backgroundImage: {fileID: 21300000, guid: 86e8d1ebc604a2143b2dac059ab7105c, type: 3}
+      triggerCameraShake: 0

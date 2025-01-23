@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645db2bb88c19ce479919e912d2dacc4, type: 3}
+  m_Name: Cutscene 4
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: Settlement
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: The survivor wakes up in his tent after he teaches the book to
+        the settlers.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The settlers have been practicing their speech and can now talk
+        more coherently but still imperfectly.
+      backgroundImage: {fileID: 21300000, guid: f4dac0ab9bcd02448b8e7375128c6880, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivors head again to another journey.
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0

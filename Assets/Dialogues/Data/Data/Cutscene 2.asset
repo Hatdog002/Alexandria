@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 645db2bb88c19ce479919e912d2dacc4, type: 3}
+  m_Name: Cutscene 2
+  m_EditorClassIdentifier: 
+  scenes:
+  - sceneName: Scene 1
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: "The survivor wakes up near the leader\u2019s house."
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: "He heads toward the leader\u2019s house to ask about joining
+        their settlement."
+      backgroundImage: {fileID: 21300000, guid: c062694705d5b1043902e16686ce4259, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor entered the house and speak with the leader.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Scene 2
+    dialogueLines:
+    - speakerName: Survivor
+      dialogueText: "Thanks for letting me stay for the night, my offer still stands
+        though, I\u2019ll do my best to help around if you\u2019re willing to let
+        me stay."
+      backgroundImage: {fileID: 21300000, guid: 265ed396054880b4caee043642961e16, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The leader says nothing and simply nods his head
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: "Wait, do you understand what I\u2019m trying to say? "
+      backgroundImage: {fileID: 21300000, guid: 686564861ffa3db40b6dc401d0022520, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: "I don\u2019t think you do. Can you respond by saying a word?"
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Leader
+      dialogueText: ...
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor nods back and exits the house.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Scene 3
+    dialogueLines:
+    - speakerName: Survivor
+      dialogueText: "If he doesn\u2019t understand me, then I guess the same goes
+        for everyone in the village."
+      backgroundImage: {fileID: 21300000, guid: 30a10803ef56ac449887d219bb868dbd, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: "There\u2019s might still some books in the library  that I can
+        use them to teach these people how to communicate."
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: He heads out and goes to the library he grew up in and went inside.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Scene 4
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: "After searching his sorroundings, He found single children\u2019s
+        alphabet book."
+      backgroundImage: {fileID: 21300000, guid: 367e0142130fc3344a4740ea5a1aa12d, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor picked it up and examined the faded pages.
+      backgroundImage: {fileID: 21300000, guid: dc09441cccdebf3489f5d4842ffd7e2e, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor decided to head back to the settlement before it
+        got dark.
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
+  - sceneName: Scene 5
+    dialogueLines:
+    - speakerName: Narrator
+      dialogueText: 'The survivor gets the settlers attention and explains what he
+        intends to do.  '
+      backgroundImage: {fileID: 21300000, guid: 007be01b605d7f04ab22bbbcf1cd8081, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Survivor
+      dialogueText: This is a book. Book. And I want to teach you guys about it.
+      backgroundImage: {fileID: 21300000, guid: 66e0fc7936c8c8248baba2ccb83f0467, type: 3}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: The survivor opens the book on the first page, shows it to the
+        settlers.
+      backgroundImage: {fileID: 0}
+      triggerCameraShake: 0
+    - speakerName: Narrator
+      dialogueText: And he begins teaching them using the book
+      backgroundImage: {fileID: 21300000, guid: f3cb7987734561741a41008514887ed1, type: 3}
+      triggerCameraShake: 0
